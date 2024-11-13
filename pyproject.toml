@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "teammatch-optimizer"
+version = "0.1.0"
+description = "Algorithm that finds an optimal teammatch roster given preferences and abilities of the dancers."
+authors = ["Thomas Hugen <t.e.hugen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+highspy = "^1.7.2"
+numpy = "^2.0.1"
+ortools = "^9.10.4067"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
